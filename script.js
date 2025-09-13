@@ -15,12 +15,14 @@ class Animal {
 }
 
 class Dog extends Animal {
+	super(this, species)
 	bark(){
 		console.log("woof")
 	}
 }
 
 class Cat extends Animal {
+	super(this, species)
 		purr(){
 		console.log("purr")
 	}
